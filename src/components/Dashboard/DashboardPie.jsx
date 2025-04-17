@@ -31,7 +31,7 @@ export default function DashboardPie() {
         </Pie>
       </PieChart>
       <div className="position-absolute text-center top-50 start-50 translate-middle">
-        <p className="mb-1 text-secondary">Stretching</p>
+        <p className="mb-1 text-light-grey">Stretching</p>
         <p className="mb-0 fs-4 fw-semibold">40hrs</p>
       </div>
     </ResponsiveContainer>

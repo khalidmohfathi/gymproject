@@ -1,5 +1,6 @@
 :root {
   --main-red: #D90A14;
+  --main-dark-red: #5B0408;
   --main-orange: #CD4E17;
   --main-grey: #262626;
   --main-light-grey: #888888;
@@ -104,15 +105,23 @@
   box-shadow: 0 0 32px 12px rgba(217, 10, 20, 0.4);
 }
 
-.progress{
+.progress {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-#progress-select{
+#progress-select {
   background-color: rgb(230, 230, 230);
   color: grey;
   border: none;
   padding: 8px 10px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.btn-danger {
+  --bs-btn-bg: var(--main-red);
+}
+
+.bg-dark-red{
+  background-color: var(--main-dark-red);
 }
